@@ -376,7 +376,7 @@ namespace WindowsFormsApp1
             }
 
             //เบี้ยประกันชีวิตแบบบำนาญ
-            if (pense < 200000 && rmfc < fifhper)
+            if (pense < 200000 && pense < fifhper)
             {
                 pense = pense;
             }
